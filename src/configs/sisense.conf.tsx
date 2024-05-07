@@ -36,6 +36,9 @@ const SisenseThemeProviderArgs = (isDarkTheme: boolean, palette: string[]) => ({
     palette: {
       variantColors: palette,
     },
+    typography: {
+      fontFamily: "Noto Sans",
+    },
   },
 })
 

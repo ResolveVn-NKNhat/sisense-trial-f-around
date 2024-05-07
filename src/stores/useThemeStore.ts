@@ -8,7 +8,7 @@ type ThemeState = {
 }
 
 export const useThemeStore = create<ThemeState>((set) => ({
-  variantColor: "#189DE4",
+  variantColor: "blue",
   isDarkTheme: false,
   setVariantColor: (variantColor) => set(() => ({ variantColor })),
   toggleDarkTheme: () => set((state) => ({ isDarkTheme: !state.isDarkTheme })),
