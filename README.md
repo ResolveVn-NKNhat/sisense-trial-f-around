@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Sisense Trial F Around
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Made by [Nhat K. Nguyen](https://github.com/ResolveVn-NKNhat).
 
-Currently, two official plugins are available:
+## Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This respository is made to test out the [Sisense Compose SDK trial](https://www.sisense.com/platform/compose-sdk-free-trial/).
 
-## Expanding the ESLint configuration
+## Installation & Deployment
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+First, clone this repository
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+$ git clone https://github.com/ResolveVn-NKNhat/sisense-trial-f-around.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Then get into the project directory and install the dependencies required
+
+```bash
+$ cd sisense-trial-f-around
+$ npm install # or yarn install, pnpm install, bun install, etc.
+```
+
+Finally, run the development environment
+
+```bash
+$ npm run dev # or yarn run dev, pnpm run dev, bun run dev, etc.
+```
+
+## Learn More
+
+- [Sisense Compose SDK Documentation](https://sisense.dev/guides/sdk/)
+- [Sisense's Compose SDK React Demo](https://github.com/sisense/compose-sdk-react-demo)
