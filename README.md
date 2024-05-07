@@ -14,12 +14,14 @@ First, clone this repository
 $ git clone https://github.com/ResolveVn-NKNhat/sisense-trial-f-around.git
 ```
 
-Then get into the project directory and install the dependencies required
+Secondly, get into the project directory and install the dependencies required
 
 ```bash
 $ cd sisense-trial-f-around
 $ npm install # or yarn install, pnpm install, bun install, etc.
 ```
+
+Afterwards, create a `.env` or `.env.local` file to store the credentials in order to use Sisense's resources. The example file can be found [here](https://github.com/ResolveVn-NKNhat/sisense-trial-f-around/blob/master/.env.local.example).
 
 Finally, run the development environment
 
